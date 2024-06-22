@@ -1,6 +1,6 @@
 <script>
-  import SocialBar from "@/components/SocialBar.vue";
-  import Header from "@/components/Header.vue";
+  import SocialBar from "./components/SocialBar.vue";
+  import Header from "./components/Header.vue";
   export default {
     components: {
       SocialBar,
@@ -11,7 +11,7 @@
 </script>
 
 <template>
-  <Header />
+  <Header/>
   <div class="welkomsttekst">
     <h1>Hallo, ik ben Mees van der Kevie</h1>
     <p>Welkom bij mijn portfolio.</p>
@@ -23,12 +23,10 @@
 <style scoped>
   h1 {
     font-size: 2rem;
-    font-family: sans-serif;
   }
 
   p {
     font-size: 1.5rem;
-    font-family: sans-serif;
   }
 
   .welkomsttekst {
