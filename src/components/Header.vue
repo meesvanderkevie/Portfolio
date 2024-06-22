@@ -1,7 +1,7 @@
 <template>
         <header>
         <nav>
-            <img src="@/assets/images/github.svg" alt="Logo" class="logo">
+            <img src="" alt="Logo" class="logo">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
