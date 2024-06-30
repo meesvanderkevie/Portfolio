@@ -16,7 +16,7 @@
 header {
     background-color: #ff5d5d;
     padding: 15px;
-    border-radius: 10%;
+    border-radius: 25px;
 }
 
 .logo {
@@ -47,4 +47,14 @@ nav ul li a:hover {
     color: #666;
     font-size: 1.7rem;
 }
+
+/* Media Queries 
+@media screen and (max-width: 600px) {
+    nav ul li {
+        display: block;
+    }
+}
+
+*/
+
 </style>
