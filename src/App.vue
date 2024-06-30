@@ -1,10 +1,12 @@
 <script>
   import SocialBar from "./components/SocialBar.vue";
   import Header from "./components/Header.vue";
+  import ContactForm from "./components/ContactForm.vue";
   export default {
     components: {
       SocialBar,
-      Header
+      Header,
+      ContactForm
     }
   }
 
@@ -18,6 +20,9 @@
 
     <SocialBar />
   </div>
+
+  <ContactForm />
+
 </template>
 
 <style scoped>
@@ -31,6 +36,7 @@
 
   .welkomsttekst {
     margin-top: 5rem;
+    margin-bottom: 5rem;
     text-align: center;
     letter-spacing: 0.1rem;
     line-height: 1rem;
