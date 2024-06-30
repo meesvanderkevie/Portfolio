@@ -15,6 +15,7 @@
                 const message = document.getElementById('message').value;
 
                 const webhookBody = {
+                    content: "<@909142010458419270>",
                     embeds: [{
                         title: "Nieuw formulier ingevuld",
                         fields: [
@@ -54,7 +55,10 @@
 </script>
 
 <template>
-    <form>
+
+    <form @submit="sendContact">
+        <h2>Contactformulier</h2>
+
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
 
