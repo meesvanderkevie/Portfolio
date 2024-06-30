@@ -1,5 +1,27 @@
-<script>
-    
+<script scoped>
+export default {
+    name: 'SocialBar',
+    data() {
+        return {
+            discordUsername: 'itzjustmees'
+        }
+    },
+    methods: {
+        CopyUsername() {
+            navigator.clipboard.writeText(this.discordUsername)
+                .then(() => {
+                    alert('Copied username to clipboard');
+                })
+                .catch(err => {
+                    console.error('Failed to copy username: ', err);
+                });
+
+            window.open('https://discord.com/channels/@me', '_blank');
+        }
+
+
+    }
+}
 </script>
 
 <template>
@@ -19,6 +41,9 @@
         <a href="mailto:mvanderkevie30@gmail.com">
             <img src="../assets/images/mail.svg" alt="mail" />
         </a>
+        <button @click="CopyUsername()" id="discordUsername">
+            <img src="../assets/images/discord.svg" alt="discord" />
+        </button>
 
 
     </li>
@@ -45,5 +70,17 @@
     img {
         width: 2.5rem;
         height: 2.5rem;
+    }
+
+    button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        background-color: #f5f5f5;
+        box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+        border: none;
     }
 </style>
