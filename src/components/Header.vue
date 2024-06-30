@@ -4,9 +4,9 @@
             <img src="@/assets/images/M.png" alt="Logo" class="logo">
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#">Opinie</a></li>
+                <li><a href="#">Projecten</a></li>
+                <li><a href="#">Samenvattingen</a></li>
             </ul>
         </nav>
         </header>
