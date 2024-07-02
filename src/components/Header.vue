@@ -14,6 +14,8 @@
 
 <style scoped>
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 nav {
     display: flex;
     align-items: center;
@@ -22,6 +24,7 @@ header {
     background: linear-gradient(to right, #1b7ceb, #00c6ff);
     padding: 15px;
     border-radius: 25px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .logo {
