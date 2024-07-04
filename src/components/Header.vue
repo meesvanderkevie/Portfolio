@@ -3,10 +3,10 @@
         <nav>
             <img src="@/assets/images/M.png" alt="Logo" class="logo">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Opinie</a></li>
-                <li><a href="#">Projecten</a></li>
-                <li><a href="#">Samenvattingen</a></li>
+                <li><a><router-link to="/">Home</router-link></a></li>
+                <li><a><router-link to="Opinie">Opinie</router-link></a></li>
+                <li><a><router-link to="Projecten">Projecten</router-link></a></li>
+                <li><a><router-link to="Samenvattingen">Samenvattingen</router-link></a></li>
             </ul>
         </nav>
         </header>
