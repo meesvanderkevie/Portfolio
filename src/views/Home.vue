@@ -34,8 +34,9 @@
   h1 {
     font-size: 2rem;
     font-family: 'Roboto', sans-serif;
+    line-height: 1.7rem;
   }
-
+  
   p {
     font-size: 1.5rem;
     font-family: 'Roboto', sans-serif;
@@ -46,7 +47,6 @@
     margin-bottom: 2rem;
     text-align: center;
     letter-spacing: 0.1rem;
-    line-height: 1rem;
   }
 
 </style>
