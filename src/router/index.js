@@ -6,6 +6,7 @@ import Opinie from '@/views/Opinie.vue';
 import Over from '@/views/Over.vue';
 import Samenvattingen from '@/views/Samenvattingen.vue';
 import Projecten from '@/views/Projecten.vue';
+import Article from '@/views/Article.vue';
 
 const router = createRouter({
     history: createWebHistory(),
@@ -34,6 +35,11 @@ const router = createRouter({
             path: '/projecten',
             name: 'Projecten',
             component: Projecten
+        },
+        {
+            path: '/article/:ArticleId',
+            name: 'Article',
+            component: Article
         }
     ]
 })
