@@ -18,4 +18,8 @@ export default {
   h1 {
     font-family: 'Roboto', sans-serif;
   }
+
+  body {
+    background-color: aliceblue;
+  }
 </style>
