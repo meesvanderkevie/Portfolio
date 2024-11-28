@@ -8,6 +8,11 @@
 import Header from "./components/Header.vue";
 
 export default {
+  name: "App",
+  metaInfo: {
+    title:  '',
+    description: '',
+  },
   components: {
     Header
   }
