@@ -6,8 +6,5 @@ import router from './router'
 import './assets/main.css'
 
 const app = createApp(App)
-app.use(VueMeta, {
-    keyName: 'head'
-})
 app.use(router)
 app.mount('#app')

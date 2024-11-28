@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Vue from 'vue';
 import VueMeta from "vue-meta";
 
 // Import views
@@ -39,7 +38,5 @@ const router = createRouter({
         }
     ]
 })
-
-Vue.use(VueMeta)
 
 export default router;
