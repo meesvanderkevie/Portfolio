@@ -1,6 +1,6 @@
 <template>
     <h1>
-        Samenvattingen
+    Samenvattingen
     </h1>
 </template>
 
@@ -13,6 +13,12 @@
         background-clip: text;
         -webkit-text-fill-color: transparent;
     } 
+
+    @media screen and (max-width: 600px) {
+        h1 {
+            font-size: 34px;
+        }
+    }
 </style>
 
 <script></script>
