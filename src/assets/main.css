@@ -8,7 +8,7 @@
 /* Define CSS variables for dark mode */
 @media (prefers-color-scheme: dark) {
     :root {
-        --background-color: #121212;
+        --background-color: #1A1A1A;
         --text-color: #ffffff;
         --link-color: #bb86fc;
     }

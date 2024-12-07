@@ -78,7 +78,7 @@ h2 {
     font-family: 'Roboto', sans-serif;
 }
 
-form {
+    form {
         display: flex;
         flex-direction: column;
         gap: 1rem;
