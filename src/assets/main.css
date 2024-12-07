@@ -1,0 +1,25 @@
+/* Define CSS variables for light mode */
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --link-color: #1a0dab;
+}
+
+/* Define CSS variables for dark mode */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #1A1A1A;
+        --text-color: #ffffff;
+        --link-color: #bb86fc;
+    }
+}
+
+/* Apply the variables */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+a {
+    color: var(--link-color);
+}
